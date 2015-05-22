@@ -1,0 +1,19 @@
+01 rem i will be our counter for the loop
+02 let i = 0
+03 rem d will hold the sum of the incoming numbers
+04 let d = 0
+05 rem this is our loop control.  since i = 0 and we want 7 numbers we increment to 6 when its don we exit loop area
+06 if i == 6 goto 16
+07 rem were using c to store the user input
+08 input c
+09 rem add the value of c to d
+10 let d = d + c
+11 rem increment the counter
+12 let i = i + 1
+13 rem go back to the if statement for the loop
+14 goto 06 
+15 rem loops done so divide by seven for the average
+16 let d = d / 7
+17 rem print the average for the user to see
+18 print d
+19 end

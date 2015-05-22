@@ -1,0 +1,11 @@
+01 rem a stores the value of the first number
+02 input a
+03 rem b stores the value of the second number
+04 input b
+05 rem c stores the value of the third number
+06 input c
+07 rem d stores the average of the three numbers
+08 let d = (a + b + c) / 3
+09 rem were printing the average
+10 print d
+11 end

@@ -1,0 +1,15 @@
+01 rem setting up the sentinel as -1
+02 let i = -1
+03 rem set the summation value to c
+04 let c = 0
+05 rem get the value from user
+06 input d
+07 rem if input is sentinel value end
+08 if d == i goto 14
+09 rem add input to summation
+10 c = c + d
+11 rem goto back to input
+12 goto 06
+13 rem print final sum
+14 print c 
+15 end

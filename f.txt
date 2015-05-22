@@ -1,0 +1,15 @@
+01 rem setting up i for loop
+02 let i = 1
+03 rem setting c to hold the sum
+04 let c = 0
+05 rem our loop tests for when i is greater then 9
+06 if i > 9 goto 14
+07 rem add i to the sum of odds
+08 let c = c + i
+09 rem increment i by 2 so it stays odd
+10 let i = i + 2
+11 rem go back to loop test
+12 goto 06
+13 rem print the final value
+14 print c
+15 end

@@ -1,0 +1,26 @@
+01 rem get the number of inputs
+02 input i
+03 rem e is the loop control
+04 let e = 0
+05 rem if i is zero don't do anything
+06 if i == 0 goto
+07 rem get first value since i is 1
+08 input d
+09 rem increment e
+10 let e = e + 1
+11 rem if e is >= lcv end program
+12 if e >= i goto 24
+13 rem get new var
+14 input f
+15 rem if f > 3 go to the assignment 
+16 if f > d goto 20
+17 rem go to loop increment
+18 goto 10
+19 rem let d equal f
+20 let d = f
+21 rem go back to increment
+22 goto 10
+23 rem print and exit
+24 print d
+25 end
+
